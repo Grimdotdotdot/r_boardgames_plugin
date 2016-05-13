@@ -1,0 +1,61 @@
+.rsi_popup {
+    position: fixed;
+    top: 50px;
+    right: 12px;
+    border: 1px solid #f9eeba;
+    background-color: #fffacf;
+    box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.25);
+    min-height: 50px;
+    width: 200px;
+    font-size: 12px;
+    padding: 2px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 200px;
+    text-align: center;
+}
+
+.rsi_popup .rsi_close {
+    float: right;
+    margin: 0 0 2px;
+    color: #fffacf;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(255,0,0,0.3);
+}
+
+.rsi_popup .rsi_loading {
+    text-align: center;
+}
+
+.rsi_popup .rsi_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.rsi_popup .rsi_thumb {
+    float: right;
+    margin: 0 0 4px 4px;
+}
+
+.rsi_popup .rsi_thumb img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.rsi_popup .rsi_rating {
+    margin: 4px 0;
+    text-align: left;
+}
+
+.rsi_popup .rsi_link {
+    margin: 0 0 4px;
+    text-align: left;
+}
+
+.rsi_popup .rsi_descript {
+    font-size: 90%;
+    text-align: left;
+}
